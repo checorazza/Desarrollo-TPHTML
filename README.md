@@ -14,9 +14,13 @@ Página web básica de un refugio de animales, utilizando únicamente HTML y alg
 
 ## Ejecución
 
-Para clonar el repositorio:
+Para clonar el repositorio, abra el bash de git y ejecute el siguiente comando:
 
-`bash git clone https://github.com/tu-usuario/nombre-del-repositorio.git`
+`git clone https://github.com/checorazza/HTML`
+
+Navegue a la carpeta donde se descargaron los archivos.
+
+Desde cualquier navegador, abra el archivo index.html
 
 ## Consignas
 
