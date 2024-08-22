@@ -16,6 +16,23 @@
         *{
             font-family: Roboto;
         }
+        .boton-animales{
+            margin:10px 10px;
+            color:black;
+            background-color: #87ECF6;
+            padding:15px;
+            vertical-align: center;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 5px;
+            border-color: black;
+            transition: background-color 0.2s ease;
+        }
+
+        .boton-animales:hover{
+            background-color: #9bbdeaa1;
+        }
     </style>
 </head>
 <body>
@@ -23,21 +40,20 @@
     <header>
         <div align="center" style="background-color: #87ECF6;">
             <h1>Patitas Gorditas</h1>
-            <h2>Refugio de animales facheros para dueños facheros</h2>
+            <h2 style="margin-bottom: 0px;">Refugio de animales facheros para dueños facheros</h2>
             <nav> 
-                <div style="height: 35px; display:flex; justify-content: space-around;">
-                    <span style="font-size: 20px">
-                        <a style="text-decoration:none; color:black;" href="#perros">Perros</a>
-                        <a style="text-decoration:none; color:black;" href="#gatos">Gatos</a>
-                        <a style="text-decoration:none; color:black;" href="#otros">Otros</a>
-                    <a style="text-decoration:none; color:black;" href="#adoptar">Adoptar</a></span>
+                <div style="background-color:white; height: 35px;">
+                    <a class="boton-animales" href="#perros">Perros</a>
+                    <a class="boton-animales" href="#gatos">Gatos</a>
+                    <a class="boton-animales" href="#otros">Otros</a>
+                    <a class="boton-animales" href="#adoptar">Adoptar</a></span>
                 </div>
             </nav>
         </div>
     </header>
     <main>
         <section> <!-- Seccion: Adoptá a una mascota-->
-            <div align="center">
+            <div align="center" style="margin-top:40px;">
                 <h1>ADOPTÁ A UNA MASCOTA</h1>
                 <img src="src/perritotriste.jpeg" width="200px" height="200px"></img> 
             </div>
