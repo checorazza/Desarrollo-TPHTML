@@ -16,7 +16,7 @@ Página web básica de un refugio de animales, utilizando únicamente HTML y alg
 
 Para clonar el repositorio, abra el bash de git y ejecute el siguiente comando:
 
-`git clone https://github.com/checorazza/HTML`
+`git clone https://github.com/checorazza/Desarrollo-TPHTML`
 
 Navegue a la carpeta donde se descargaron los archivos.
 
